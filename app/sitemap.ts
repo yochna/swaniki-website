@@ -5,7 +5,7 @@ import { websites } from "@/lib/websites";
 const BASE_URL = "https://swaniki.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/about", "/services", "/products", "/websites", "/blog", "/contact"].map(
+  const staticRoutes = ["", "/about", "/services", "/products", "/websites", "/careers", "/blog", "/contact"].map(
     (route) => ({
       url: `${BASE_URL}${route}`,
       lastModified: new Date(),

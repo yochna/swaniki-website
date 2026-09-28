@@ -53,16 +53,11 @@ export function EditorialFooter() {
       </div>
 
       <div className="border-t border-hairline/70 dark:border-white/5">
-        <div className="container-ed flex flex-col items-center gap-2 py-5 text-[11px] text-wink/40 dark:text-paper/35">
-          <p className="max-w-3xl text-center leading-relaxed sm:text-left sm:self-start">
-            {site.legalNotice}
+        <div className="container-ed flex flex-col items-center justify-between gap-2 py-5 text-[11px] text-wink/40 dark:text-paper/35 sm:flex-row">
+          <p>
+            © {new Date().getFullYear()} {site.fullName}. All rights reserved.
           </p>
-          <div className="flex w-full flex-col items-center justify-between gap-2 sm:flex-row">
-            <p>
-              © {new Date().getFullYear()} {site.fullName}. All rights reserved.
-            </p>
-            <p className="font-mono uppercase tracking-[0.2em]">SaaS · Automations · Web</p>
-          </div>
+          <p className="font-mono uppercase tracking-[0.2em]">SaaS · Automations · Web</p>
         </div>
       </div>
     </footer>

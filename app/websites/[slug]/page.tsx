@@ -93,14 +93,12 @@ export default function WebsiteDetailPage({ params }: { params: { slug: string }
             </div>
           </div>
 
-          {site.technology.length > 0 && (
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <span className="font-mono text-xs font-bold uppercase tracking-wider text-wink/60 dark:text-paper/60">Technology:</span>
-              {site.technology.map((t) => (
-                <Tag key={t}>{t}</Tag>
-              ))}
-            </div>
-          )}
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <span className="font-mono text-xs font-bold uppercase tracking-wider text-wink/60 dark:text-paper/60">Technology:</span>
+            {site.technology.map((t) => (
+              <Tag key={t}>{t}</Tag>
+            ))}
+          </div>
         </div>
       </section>
 

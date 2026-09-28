@@ -36,7 +36,7 @@ function RichPreview({ name, kind }: { name: string; kind: string }) {
       <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden bg-[#1c140e] p-4 text-white">
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
         <span className="relative z-10 text-[9px] font-semibold uppercase tracking-[0.25em] text-[#d4a373]">Artisan Coffee</span>
-        <h4 className="relative z-10 font-serif text-lg font-bold italic text-white mt-0.5">The Coffee Factory</h4>
+        <h4 className="relative z-10 font-serif text-lg font-bold italic text-white mt-0.5">The Coffee Shop</h4>
         <span className="relative z-10 mt-2 rounded-full border border-[#d4a373]/40 bg-[#d4a373]/20 px-2.5 py-0.5 text-[8px] text-[#faedcd]">
           Explore Brews →
         </span>

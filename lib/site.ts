@@ -2,12 +2,11 @@ export const site = {
   name: "Swaniki",
   fullName: "Swaniki Technologies",
   tagline: "Build. Automate. Elevate.",
-  legalNotice:
-    "Swaniki, Swaniki Technologies and Swaniki Labs are operating brand names of Swaniki LLP.",
   heroHeading: "We Build Digital Solutions That Drive Real Impact.",
   description:
     "Swaniki builds SaaS products, custom IT solutions, intelligent automations and modern websites that help businesses grow, scale and stay ahead.",
   url: "https://swaniki.com",
+  careersFormUrl: "https://forms.gle/aYsM5EE1muh6GDkW6",
   contact: {
     email: "contact@swaniki.com",
     location: "Global / Remote",
@@ -23,6 +22,7 @@ export const site = {
     { label: "Products", href: "/products" },
     { label: "Websites", href: "/websites" },
     { label: "About", href: "/about" },
+    { label: "Careers", href: "/careers" },
     { label: "Blog", href: "/blog" },
   ],
   services: [
